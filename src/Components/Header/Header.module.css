@@ -37,7 +37,14 @@
   padding: 1rem 0;
   transition: all 0.3s;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   border-bottom: 2px solid transparent;
+}
+.navbar__link svg {
+  font-size: 2.4rem;
 }
 .navbar__link:hover {
   color: var(--color-primary-1);
@@ -50,13 +57,15 @@
   color: var(--color-primary-1);
   transition: all 0.2s;
   height: 5.2rem;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1.5rem 2rem;
   border-radius: var(--border-r-circle);
 }
 .navbar__btnLogin:hover {
   background-color: var(--color-primary-1);
-  padding: 1.5rem 4rem;
+  padding: 1.5rem 3rem;
 }
 
 .navbar__btnLogin:hover a {
