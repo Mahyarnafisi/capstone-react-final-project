@@ -8,7 +8,7 @@
   justify-content: space-between;
   width: 100%;
   height: 8rem;
-  box-shadow: 0 1rem 3rem #00000015;
+  box-shadow: 0 1rem 6rem #00000015;
   padding: var(--padding-section);
 }
 .navbar__list {

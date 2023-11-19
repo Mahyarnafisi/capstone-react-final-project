@@ -29,14 +29,14 @@ body {
 
   --font-s-sm: 1.6rem;
   --font-s-md: 1.8rem;
-  --font-s-lg: 4rem;
+  --font-s-lg: 4.2rem;
 
   --border-r-sm: 0.8rem;
   --border-r-md: 1.2rem;
   --border-r-md: 1.6rem;
   --border-r-circle: 999px;
 
-  --padding-section: 0 5vw;
+  --padding-section: 0 10vw;
 }
 
 button {

@@ -1,0 +1,6 @@
+.specialMenu {
+  width: 100%;
+  padding: var(--padding-section);
+  background-color: var(--color-gray);
+  height: min-content;
+}
