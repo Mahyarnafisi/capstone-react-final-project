@@ -33,3 +33,19 @@ body {
   --border-r-md: 1.6rem;
   --border-r-circle: 999px;
 }
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-s-sm);
+  font-weight: 600;
+  padding: 1.5rem 1.5rem;
+  height: 5.2rem;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  filter: brightness(120%);
+}
