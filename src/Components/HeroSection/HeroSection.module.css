@@ -53,6 +53,10 @@
   justify-content: center;
   transition: all 0.3s;
   border: 2px solid transparent;
+  gap: 1rem;
+}
+.content a svg {
+  transition: all 3;
 }
 .content a:hover {
   background-color: var(--color-primary-1);

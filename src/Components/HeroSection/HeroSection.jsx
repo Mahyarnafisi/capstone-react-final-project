@@ -2,6 +2,7 @@ import Styles from "./HeroSection.module.css";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import heroSectionImg from "./../../assets/image/restauranfood.webp";
+import ArrowForwardIosRoundedIcon from "@mui/icons-material/ArrowForwardIosRounded";
 function HeroSection() {
   return (
     <section className={Styles.heroSection}>
@@ -13,7 +14,9 @@ function HeroSection() {
           restaurant’s name, Otium, has its roots in Latin, a word that is meant to emphasize a place where time can be spent on leisurely social activities. Adjacent to one of Los Angeles’ most important cultural corridors — Grand Avenue —
           and next to its newest,
         </p>
-        <NavLink>Reservation</NavLink>
+        <NavLink>
+          Reservation <ArrowForwardIosRoundedIcon />
+        </NavLink>
       </div>
       <div className={Styles.image}>
         <img className={Styles.heroSection__image} src={heroSectionImg} alt="" />
