@@ -78,8 +78,8 @@
 
 .heroSection__image {
   width: 100%;
-  min-width: 50rem;
-  max-width: 35rem;
+  min-width: 35rem;
+  max-width: 45rem;
   transition: all 0.3s;
   border-radius: var(--border-r-sm);
 }

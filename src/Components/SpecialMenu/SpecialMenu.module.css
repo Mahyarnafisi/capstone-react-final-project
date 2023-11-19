@@ -1,6 +1,132 @@
 .specialMenu {
   width: 100%;
-  padding: var(--padding-section);
+  padding: 16rem 10vw;
   background-color: var(--color-gray);
   height: min-content;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.specialMenu__title {
+  color: var(--color-primary-1);
+  font-size: var(--font-s-lg);
+  font-family: var(--font-markazi);
+}
+
+.specialMenu__btnOrderOnline {
+  background-color: var(--color-primary-2);
+  font-weight: 600;
+  color: var(--color-primary-1);
+  transition: all 0.2s;
+  height: 5.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  border-radius: var(--border-r-circle);
+  font-size: var(--font-s-md);
+  gap: 1rem;
+}
+.specialMenu__btnOrderOnline:hover {
+  background-color: var(--color-primary-1);
+  padding: 1.5rem 3rem;
+  color: var(--color-white);
+}
+
+.specialMenu__list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 6rem 0;
+}
+
+.specialMenu__item {
+  background-color: #ffffff;
+  border-radius: var(--border-r-md);
+  box-shadow: 0 1rem 4rem #00000025;
+  overflow: hidden;
+  width: 100%;
+  min-width: 30rem;
+  max-width: 40rem;
+  transition: all 0.3s;
+}
+.specialMenu__item:hover {
+  box-shadow: 0 1rem 2rem #00000030;
+  transform: translateY(-4px);
+}
+
+.item__img {
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.specialMenu__item:hover img {
+  transform: scale(1.05);
+}
+
+.item__img img {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.item__body {
+  width: 100%;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.item__body p {
+  font-size: var(--font-s-sm);
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.item__footer {
+  width: 100%;
+  font-size: var(--font-s-md);
+  text-decoration: none;
+  padding: 2rem 0;
+}
+
+.item__footer a {
+  color: var(--color-primary-1);
+  font-weight: 500;
+  padding: 2rem;
+  transition: all 0.3s;
+}
+
+.specialMenu__item:hover a {
+  background-color: var(--color-primary-1);
+  color: var(--color-primary-2);
+  padding: 1.5rem;
+  border-radius: 0 999px 999px 0;
+}
+.itemRow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.itemRow h2 {
+  font-size: var(--font-s-lg);
+  font-family: var(--font-markazi);
+  color: var(--color-primary-1);
+}
+
+.itemRow h5 {
+  font-size: 2.9rem;
+  color: var(--color-secondary-1);
+  font-family: var(--font-markazi);
 }

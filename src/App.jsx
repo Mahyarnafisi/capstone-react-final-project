@@ -13,7 +13,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
-      f<Footer />
+      <Footer />
     </div>
   );
 }
