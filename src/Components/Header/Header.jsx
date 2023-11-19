@@ -1,12 +1,13 @@
 import React from "react";
 import Styles from "./Header.module.css";
+import brandLogo from "./../../assets/image/Logo .svg";
 import { Link, NavLink } from "react-router-dom";
 function Header() {
   return (
     <section className={Styles.header}>
       <nav className={Styles.navbar}>
         <NavLink to="/">
-          <img src="#" alt="" />
+          <img className={Styles.navbar__brandLogo} src={brandLogo} alt="" />
         </NavLink>
         <ul className={Styles.navbar__list}>
           <li className={Styles.navbar__item}>
@@ -24,7 +25,7 @@ function Header() {
           <li className={Styles.navbar__item}>
             <NavLink className={Styles.navbar__link}>Order online</NavLink>
           </li>
-          <li className={Styles.navbar__item}>
+          <li className={`${Styles.navbar__item} ${Styles.navbar__btnLogin}`}>
             <NavLink className={Styles.navbar__link}>Login</NavLink>
           </li>
         </ul>

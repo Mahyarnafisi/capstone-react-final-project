@@ -19,8 +19,11 @@ body {
   --color-primary-2: #face14;
   --color-secondary-1: #ee9972;
   --color-secondary-2: #fbdabb;
-  --color-white: #edefee;
+
+  --color-gray: #edefee;
   --color-black: #333333;
+  --color-white: #ffffff;
+
   --font-markazi: "Markazi Text", serif;
   --font-karla: "Karla", sans-serif;
 
@@ -32,6 +35,8 @@ body {
   --border-r-md: 1.2rem;
   --border-r-md: 1.6rem;
   --border-r-circle: 999px;
+
+  --padding-section: 0 5vw;
 }
 
 button {
@@ -48,4 +53,12 @@ button {
 
 button:hover {
   filter: brightness(120%);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
