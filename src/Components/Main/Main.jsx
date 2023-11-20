@@ -3,6 +3,7 @@ import Styles from "./Main.module.css";
 import HeroSection from "../HeroSection/HeroSection";
 import SpecialMenu from "../SpecialMenu/SpecialMenu";
 import Testimonial from "../Testimonial/Testimonial";
+import About from "../About/About";
 
 function Main() {
   return (
@@ -10,6 +11,7 @@ function Main() {
       <HeroSection />
       <SpecialMenu />
       <Testimonial />
+      <About />
     </main>
   );
 }

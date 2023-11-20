@@ -18,7 +18,7 @@
 }
 
 .commentItem {
-  padding: 4rem 2rem;
+  padding: 6rem 2rem 4rem 2rem;
   background-color: var(--color-white);
   border-radius: var(--border-r-md);
   width: 100%;
@@ -39,6 +39,7 @@
 .commentItem h2 {
   font-size: var(--font-s-md);
   /* margin-bottom: 2rem; */
+  color: var(--color-primary-1);
 }
 
 .commentItem img {
@@ -53,8 +54,10 @@
 
 .commentItem p {
   font-size: var(--font-s-sm);
+  color: var(--color-primary-1);
 }
 .commentStar {
+  margin-bottom: 2rem;
 }
 
 .commentStar svg {
