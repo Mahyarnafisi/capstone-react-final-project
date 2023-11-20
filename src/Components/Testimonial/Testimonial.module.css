@@ -1,0 +1,63 @@
+.testimonial {
+  width: 100%;
+  background-color: var(--color-primary-1);
+  padding: 6rem 10vw;
+}
+.testimonialTitle {
+  font-size: var(--font-s-lg);
+  margin-bottom: 8rem;
+  color: var(--color-primary-2);
+  font-family: var(--font-markazi);
+}
+.commentList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  flex-flow: wrap;
+}
+
+.commentItem {
+  padding: 4rem 2rem;
+  background-color: var(--color-white);
+  border-radius: var(--border-r-md);
+  width: 100%;
+  min-width: 30rem;
+  max-width: 60rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.2s;
+}
+.commentItem:hover {
+  box-shadow: 0 1rem 2rem #00000015;
+  transform: scale(1.02);
+}
+
+.commentItem h2 {
+  font-size: var(--font-s-md);
+  /* margin-bottom: 2rem; */
+}
+
+.commentItem img {
+  width: 86px;
+  height: auto;
+  border-radius: var(--border-r-circle);
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.commentItem p {
+  font-size: var(--font-s-sm);
+}
+.commentStar {
+}
+
+.commentStar svg {
+  color: var(--color-primary-2);
+  font-size: 2.4rem;
+}
