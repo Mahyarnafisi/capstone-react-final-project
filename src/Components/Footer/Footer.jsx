@@ -14,7 +14,8 @@ function Footer() {
   return (
     <footer className={Styles.footer}>
       <div className={Styles.logoContainer}>
-        <img src={logoImage} alt="" />
+        <img src={logoImage} alt="logo image" />
+        <h3>"the best one in our city"</h3>
       </div>
       <div className={Styles.navbar}>
         <div className={Styles.quickLink}>
