@@ -62,3 +62,26 @@ li {
 a {
   text-decoration: none;
 }
+
+input {
+  height: 4.6rem;
+  padding: 1rem;
+  border-radius: var(--border-r-sm);
+  outline: none;
+  border: none;
+  background-color: var(--color-gray);
+  width: 100%;
+  font-size: var(--font-s-sm);
+}
+
+input[type="date"] {
+  font-family: var(--font-karla);
+  text-transform: uppercase;
+}
+textarea {
+  width: 100%;
+  font-family: var(--font-karla);
+  padding: 1rem;
+  border-radius: var(--border-r-sm);
+  height: 5rem;
+}

@@ -32,7 +32,7 @@ function Header() {
             </Link>
           </li>
           <li className={Styles.navbar__item}>
-            <NavLink className={Styles.navbar__link}>
+            <NavLink to="reservation" className={Styles.navbar__link}>
               {" "}
               <RestaurantMenuRoundedIcon /> Reservation
             </NavLink>
