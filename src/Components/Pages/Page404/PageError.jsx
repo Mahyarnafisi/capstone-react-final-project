@@ -1,16 +1,20 @@
 import React from "react";
-import Styles from "./Page404.module.css";
+import Styles from "./PageError.module.css";
 import ErrorOutlineRoundedIcon from "@mui/icons-material/ErrorOutlineRounded";
 import { useNavigate } from "react-router-dom";
 
-function page404() {
+function PageError() {
+  const navigate = useNavigate();
+  const onClickBackToHome = () => {
+    navigate("/");
+  };
   return (
     <div className={Styles.errorPage}>
       <div className={Styles.messageContent}>
         <ErrorOutlineRoundedIcon />
         <h1>Oops, something is wrong!</h1>
         <h2>Please try again, this page is under maintenance.</h2>
-        <button onClick={() => {}} className={Styles.btnSubmit}>
+        <button onClick={onClickBackToHome} className={Styles.btnSubmit}>
           Get back to home
         </button>
       </div>
@@ -18,4 +22,4 @@ function page404() {
   );
 }
 
-export default page404;
+export default PageError;
