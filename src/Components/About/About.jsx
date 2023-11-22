@@ -4,7 +4,7 @@ import image1 from "./../../assets/image/Mario and Adrian A.jpg";
 import image2 from "./../../assets/image/Mario and Adrian b.jpg";
 function About() {
   return (
-    <div className={Styles.about}>
+    <div className={Styles.about} id="about-section">
       <div className={Styles.about__content}>
         <h2>Little Lemon Restaurant</h2>
         <h4>Los Angles</h4>

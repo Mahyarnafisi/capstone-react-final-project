@@ -22,14 +22,14 @@ function Header() {
             </NavLink>
           </li>
           <li className={Styles.navbar__item}>
-            <Link to="error" className={Styles.navbar__link}>
+            <a href="#about-section" className={Styles.navbar__link}>
               About <KeyboardArrowDownRoundedIcon />
-            </Link>
+            </a>
           </li>
           <li className={Styles.navbar__item}>
-            <Link to="error" className={Styles.navbar__link}>
+            <a href="#specialMenu-section" className={Styles.navbar__link}>
               Menu <KeyboardArrowDownRoundedIcon />
-            </Link>
+            </a>
           </li>
           <li className={Styles.navbar__item}>
             <NavLink to="reservation" className={Styles.navbar__link}>

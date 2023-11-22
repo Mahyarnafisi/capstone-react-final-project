@@ -9,7 +9,7 @@ import { NavLink, Link } from "react-router-dom";
 
 function SpecialMenu() {
   return (
-    <section className={Styles.specialMenu}>
+    <section className={Styles.specialMenu} id="specialMenu-section">
       <div className={Styles.row}>
         <h1 className={Styles.specialMenu__title}>This week special!</h1>
         <NavLink to="error" className={Styles.specialMenu__btnOrderOnline}>

@@ -25,10 +25,10 @@ function Footer() {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="error">About</NavLink>
+              <a href="#about-section">About</a>
             </li>
             <li>
-              <NavLink to="error">Menu</NavLink>
+              <a href="#specialMenu-section">Menu</a>
             </li>
             <li>
               <NavLink to="reservation">Reservation</NavLink>
