@@ -22,19 +22,19 @@ function Footer() {
           <h2>Quick Links</h2>
           <ul>
             <li>
-              <NavLink>Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink>About</NavLink>
+              <NavLink to="error">About</NavLink>
             </li>
             <li>
-              <NavLink>Menu</NavLink>
+              <NavLink to="error">Menu</NavLink>
             </li>
             <li>
-              <NavLink>Reservation</NavLink>
+              <NavLink to="reservation">Reservation</NavLink>
             </li>
             <li>
-              <NavLink>Order Online</NavLink>
+              <NavLink to="error">Order Online</NavLink>
             </li>
           </ul>
         </div>
@@ -56,10 +56,18 @@ function Footer() {
         </div>
         <div className={Styles.socialMedia}>
           <h2>Social Media</h2>
-          <InstagramIcon />
-          <FacebookIcon />
-          <YouTubeIcon />
-          <TwitterIcon />
+          <Link to="https://www.instagram.com/" target="_blank">
+            <InstagramIcon />
+          </Link>
+          <Link to="https://www.facebook.com/" target="_blank">
+            <FacebookIcon />
+          </Link>
+          <Link to="https://www.youtube.com/" target="_blank">
+            <YouTubeIcon />
+          </Link>
+          <Link to="https://twitter.com/" target="_blank">
+            <TwitterIcon />
+          </Link>
         </div>
       </div>
     </footer>

@@ -16,18 +16,18 @@ function Header() {
         </NavLink>
         <ul className={Styles.navbar__list}>
           <li className={Styles.navbar__item}>
-            <NavLink className={Styles.navbar__link}>
+            <NavLink to="/" className={Styles.navbar__link}>
               <HomeRoundedIcon />
               Home
             </NavLink>
           </li>
           <li className={Styles.navbar__item}>
-            <Link className={Styles.navbar__link}>
+            <Link to="error" className={Styles.navbar__link}>
               About <KeyboardArrowDownRoundedIcon />
             </Link>
           </li>
           <li className={Styles.navbar__item}>
-            <Link className={Styles.navbar__link}>
+            <Link to="error" className={Styles.navbar__link}>
               Menu <KeyboardArrowDownRoundedIcon />
             </Link>
           </li>
@@ -38,13 +38,13 @@ function Header() {
             </NavLink>
           </li>
           <li className={Styles.navbar__item}>
-            <NavLink className={Styles.navbar__link}>
+            <NavLink to="error" className={Styles.navbar__link}>
               {" "}
               <ShoppingBasketRoundedIcon /> Order online
             </NavLink>
           </li>
           <li className={`${Styles.navbar__item} ${Styles.navbar__btnLogin}`}>
-            <NavLink className={Styles.navbar__link}>
+            <NavLink to="error" className={Styles.navbar__link}>
               <PersonRoundedIcon /> Login
             </NavLink>
           </li>

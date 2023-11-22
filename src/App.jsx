@@ -5,6 +5,7 @@ import Main from "./Components/Main/Main";
 import Page404 from "./Components/Pages/Page404/Page404";
 import Footer from "./Components/Footer/Footer";
 import Reservation from "./Components/Reservation/Reservation";
+import SuccessBooking from "./Components/SuccessBooking/SuccessBooking";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="reservation" element={<Reservation />} />
-        <Route path="*" element={<Page404 />} />
+        <Route path="reservation/confirm" element={<SuccessBooking />} />
+        <Route path="error" element={<Page404 />} />
       </Routes>
       <Footer />
     </div>

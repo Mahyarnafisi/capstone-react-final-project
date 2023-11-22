@@ -12,7 +12,7 @@ function SpecialMenu() {
     <section className={Styles.specialMenu}>
       <div className={Styles.row}>
         <h1 className={Styles.specialMenu__title}>This week special!</h1>
-        <NavLink className={Styles.specialMenu__btnOrderOnline}>
+        <NavLink to="error" className={Styles.specialMenu__btnOrderOnline}>
           Online menu <ArrowForwardIosRoundedIcon />
         </NavLink>
       </div>
@@ -33,7 +33,7 @@ function SpecialMenu() {
               </p>
             </div>
             <div className={Styles.item__footer}>
-              <Link>Order a delivery</Link>
+              <Link to="error">Order a delivery</Link>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ function SpecialMenu() {
               </p>
             </div>
             <div className={Styles.item__footer}>
-              <Link>Order a delivery</Link>
+              <Link to="error">Order a delivery</Link>
             </div>
           </div>
           <div className={Styles.specialMenu__item}>
@@ -70,7 +70,7 @@ function SpecialMenu() {
               </p>
             </div>
             <div className={Styles.item__footer}>
-              <Link>Order a delivery</Link>
+              <Link to="error">Order a delivery</Link>
             </div>
           </div>
         </div>

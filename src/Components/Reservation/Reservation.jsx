@@ -7,6 +7,7 @@ function Reservation() {
   const onSubmitHandler = (e) => {
     e.preventDefault();
     navigate("confirm");
+    console.log(e);
   };
   return (
     <div className={Styles.reservation}>

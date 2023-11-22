@@ -14,7 +14,7 @@ function HeroSection() {
           restaurant’s name, Otium, has its roots in Latin, a word that is meant to emphasize a place where time can be spent on leisurely social activities. Adjacent to one of Los Angeles’ most important cultural corridors — Grand Avenue —
           and next to its newest,
         </p>
-        <NavLink>
+        <NavLink to="reservation">
           Reservation <ArrowForwardIosRoundedIcon />
         </NavLink>
       </div>
